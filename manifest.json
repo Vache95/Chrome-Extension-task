@@ -1,0 +1,17 @@
+{
+    "name":"Example",
+    "description":"welcome",
+    "version":"1.0",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+      "content_scripts": [
+        {
+          "matches": ["https://example.com/"],
+          "js": ["content.js"],
+          "css":["style.css"]
+        }
+      ],
+    "manifest_version":3
+}
